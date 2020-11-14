@@ -4,6 +4,21 @@ void main() {
   runApp(MyApp());
 }
 
+class Person{
+  String firstName;
+  String lastName;
+  int age;
+  String prefecture;
+  String favoriteCategory;
+  Person(firstName, lastName, age, prefecture){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.prefecture = prefecture;
+    this.favoriteCategory = null;
+  }
+}
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
