@@ -8,7 +8,6 @@ class Person{
   String firstName;
   String lastName;
   int age;
-  int tall;
   String prefecture;
   String favoriteCategory;
   Person(firstName, lastName, age, prefecture){
